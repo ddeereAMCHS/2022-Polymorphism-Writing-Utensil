@@ -1,0 +1,5 @@
+WritingUtensil; Papermate; gray
+Pen; Pilot; blue; 0.7; 50; clicked
+Marker; Crayola; green; chisel
+Pen; Papermate; orange; 0.5; 100; clicked
+Marker; Sharpie; black; fine

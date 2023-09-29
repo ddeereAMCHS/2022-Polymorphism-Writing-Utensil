@@ -2,30 +2,10 @@
   "tests": [
     {
       "name": "Test 1",
-      "setup": "javac BookTester.java",
-      "run": "java BookTester",
-      "input": "textbook1.txt\r\nnovel1.txt",
-      "output": "Calculus by Tom Smith, ed. 1\r\nThe Cat in the Hat by Dr. Seuss",
-      "comparison": "included",
-      "timeout": 2,
-      "points": null
-    },
-    {
-      "name": "Test 2",
-      "setup": "javac BookTester.java",
-      "run": "java BookTester",
-      "input": "textbook2.txt\r\nnovel2.txt",
-      "output": "Data Structures and Algorithms by Bill Bob, ed. 3\r\nThe Lightning Thief by Rick Riordan",
-      "comparison": "included",
-      "timeout": 2,
-      "points": null
-    },
-    {
-      "name": "Test 3",
-      "setup": "javac BookTester.java",
-      "run": "java BookTester",
-      "input": "textbook3.txt\r\nnovel3.txt",
-      "output": "Intro to Biology by Isaac Powell, ed. 2\r\nHeir to the Empire by Timothy Zahn",
+      "setup": "javac WritingTester.java",
+      "run": "java WritingTester",
+      "input": "objects1.txt\r\nlines1.txt",
+      "output": "gray Papermate\r\nHello there\r\nI've got a bad feeling about this\r\nMay the Force be with you\r\n\r\n0.7 blue Pilot pen\r\nHello there\r\nI've got a bad feeling about this\r\nMay th\r\n\r\nchisel green Crayola marker\r\nHELLO THERE\r\nI'VE GOT A BAD FEELING ABOUT THIS\r\nMAY THE FORCE BE WITH YOU\r\n\r\n0.5 orange Papermate pen\r\nHello there\r\nI've got a bad feeling about this\r\nMay the Force be with you\r\n\r\nfine black Sharpie marker\r\nhello there\r\ni've got a bad feeling about this\r\nmay the force be with you",
       "comparison": "included",
       "timeout": 2,
       "points": null

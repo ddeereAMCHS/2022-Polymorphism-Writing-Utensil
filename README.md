@@ -49,7 +49,6 @@
 - Add the object to the ArrayList
 - Prompt the user for another filename
 - Read each line into an ArrayList of Strings
-- Print each WritingUtensil object
 - For each WritingUtensil object in the ArrayList
   - Print the object
   - Call the write method for each line from the list of Strings

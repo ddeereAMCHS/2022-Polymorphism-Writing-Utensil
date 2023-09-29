@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "javac BookTester.java",
+      "run": "java BookTester",
+      "input": "textbook1.txt\r\nnovel1.txt",
+      "output": "Calculus by Tom Smith, ed. 1\r\nThe Cat in the Hat by Dr. Seuss",
+      "comparison": "included",
+      "timeout": 2,
+      "points": null
+    },
+    {
+      "name": "Test 2",
+      "setup": "javac BookTester.java",
+      "run": "java BookTester",
+      "input": "textbook2.txt\r\nnovel2.txt",
+      "output": "Data Structures and Algorithms by Bill Bob, ed. 3\r\nThe Lightning Thief by Rick Riordan",
+      "comparison": "included",
+      "timeout": 2,
+      "points": null
+    },
+    {
+      "name": "Test 3",
+      "setup": "javac BookTester.java",
+      "run": "java BookTester",
+      "input": "textbook3.txt\r\nnovel3.txt",
+      "output": "Intro to Biology by Isaac Powell, ed. 2\r\nHeir to the Empire by Timothy Zahn",
+      "comparison": "included",
+      "timeout": 2,
+      "points": null
+    }
+  ]
+}
